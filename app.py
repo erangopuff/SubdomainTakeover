@@ -11,6 +11,11 @@ def index():
    print('Request for index page received')
    return render_template('index.html')
 
+@app.route('/sfdsafasfd234234jasjdajsdjas')
+def takeover():
+   print('Request for index page received')
+   return render_template('sfdsafasfd234234jasjdajsdjas.html')
+
 @app.route('/favicon.ico')
 def favicon():
     return send_from_directory(os.path.join(app.root_path, 'static'),
